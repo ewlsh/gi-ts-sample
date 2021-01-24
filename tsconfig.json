@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "es2020",
+        "moduleResolution": "node",
+        "target": "ES2018",
+        "paths": {
+            "*": [
+                "node_modules/@gi-types/*",
+                "*"
+            ]
+        },
+        "baseUrl": "."
+    },
+    "include": [
+        "global.d.ts",
+        "entry.ts",
+        "main.ts",
+        "window.ts"
+    ]
+}

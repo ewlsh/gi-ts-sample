@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "gjs ./_build/app.js",
+    "compile": "tsc -p tsconfig.json --outDir _compiled/",
+    "rollup": "rollup --inlineDynamicImports --no-treeshake ./_compiled/entry.js  --file ./_build/app.js --format es"
+  },
+  "devDependencies": {
+    "@gi-types/gtk": "3.24.5",
+    "rollup": "^2.38.0",
+    "typescript": "^4.1.3"
+  }
+}
